@@ -1,0 +1,15 @@
+.btn-primary.btn-gradient{background-image: linear-gradient(to right, #30b4e1 0%, #7366b6 70%, #7366b6 100%);-webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.22);box-shadow: 0 1px 8px 0px rgba(0, 0, 0, 0.22);}
+.btn-primary.btn-gradient:hover,.btn-primary.btn-gradient:focus,.btn-primary.btn-gradient:active{background-image: linear-gradient(to right, #5a4daa 0%, #19a9d5 70%, #19a9d5 100%);}
+.contact-details-box .list-unstyled i.fa{margin-right: 7px;min-width: 15px;}
+.btn-outline-info{background: #fff;color: #30b4e1;border-color: #30b4e1 !important;}
+.btn-outline-info:hover,.btn-outline-info:focus,.btn-outline-info:active{background: #fff;color: #7366b6!important;border-color: #7366b6 !important;}
+.panel-details .font-semi-bold {font-weight: 600;}
+@media (min-width: 992px){
+	.panel.panel-details .row > div+.col-md-4 {border-left:solid 1px #ecedf2;}
+	.region.region-triptych .row.row-flex{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+  .region.region-triptych .row.row-flex:after,.region.region-triptych .row.row-flex:before {display: flex;}
+  .region.region-triptych .row-flex .col-md-4{position: relative;width: 100%;min-height: 1px;padding-right: 15px;padding-left: 15px;-webkit-box-flex: 0;-ms-flex: 0 0 33.333333%;flex: 0 0 33.333333%;max-width: 33.333333%;}
+}
+@media (max-width: 991px){
+	.panel.panel-details .row > div+.col-md-4 {border-top:solid 1px #ecedf2;margin-top: 20px;padding-top: 20px;}
+}

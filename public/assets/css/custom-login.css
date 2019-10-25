@@ -1,0 +1,17 @@
+.page-user .app {background-color:#fff;}
+.page-user .app-header-fixed{padding-top:93px}
+.page-user .app canvas.particles-js-canvas-el{position: absolute;top: 0;left: 0;z-index: 0;}
+.page-user .app > .container{z-index: 10;position: relative;}
+.page-user .navbar-brand.logo-block{margin-bottom: 20px;}
+.page-user .navbar-brand.logo-block img{max-height: 60px;}
+.page-user .page-title{font-size: 20px;font-weight: 500;text-transform: capitalize;}
+.page-user form .form-group .form-control{height: 40px;border-radius: 40px;margin-top: 5px;color: #888888;background: #f7f7f7;padding-left: 20px;padding-right: 20px;}
+.page-user form .form-actions.form-wrapper{margin-top: 30px;}
+.page-user form .form-actions.form-wrapper .btn{max-width: 150px;margin-left: auto;margin-right: auto;border-radius: 60px;}
+.page-user form .form-actions.form-wrapper .btn-primary{background-color: #375ffa;border-color: #375ffa;-webkit-box-shadow: 0px 5px 10px 2px rgba(55, 95, 250,0.19) !important;box-shadow: 0px 5px 10px 2px rgba(55, 95, 250,0.19) !important;}
+.page-user form .form-actions.form-wrapper .btn-primary:hover,.page-user form .form-actions.form-wrapper .btn-primary:focus,.page-user form .form-actions.form-wrapper .btn-primary:active{background-color: #2e53e2;border-color: #2e53e2;}
+.page-user form .sign-up-text{margin-top: 30px;}
+.page-user .region-footer{color: #98a6ad;}
+@media only screen and (min-width: 767px) {
+	.page-user .w-xxl{width: 430px;}
+}

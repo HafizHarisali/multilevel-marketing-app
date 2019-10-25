@@ -1,0 +1,54 @@
+div.ctools-modal-content.ctools-modal-builder-modal-content .modal-header{
+  background-color: #f3f4ee;
+  padding: 8px 13px;
+
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .modal-header .modal-title{
+  font-size: 15px;
+  color: #000;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content a.close{
+  color: #000;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content{
+  border: 1px solid #ccc;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content div.vertical-tabs:before,div.ctools-modal-content.ctools-modal-builder-modal-content div.vertical-tabs:after{
+  content: ' ';
+  display: table;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content div.vertical-tabs:after{
+  clear: both;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content div.vertical-tabs .vertical-tabs-panes{
+  overflow: hidden; 
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content div.vertical-tabs .vertical-tabs-panes .fieldset-wrapper{
+  margin-top: 0;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .form-type-textarea label{
+  display: block;
+  float: none;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .vertical-tabs #edit-settings-grid .form-item.form-type-select label{
+  display: block;
+  float: left;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .form-type-textarea .form-textarea-wrapper{
+  margin-left: 0;
+  margin-right: 0;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .vertical-tabs .form-item label{
+  display: block;
+  float: none;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .vertical-tabs .form-item.form-type-checkbox label{
+  display: inline;
+  float: none;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .form-item label{
+  width: 16em;
+}
+div.ctools-modal-content.ctools-modal-builder-modal-content .form-item-settings-background-use-parallax label{
+  font-weight: bold;
+}

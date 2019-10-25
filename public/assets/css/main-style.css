@@ -1,0 +1,244 @@
+fieldset legend{font-size: 20px;font-family: inherit;font-weight: 500;line-height: 1.1; color: inherit; border-bottom: 1px solid #dee5e7;padding-bottom: 12px;}
+.mw-650{max-width: 650px;}
+.mr-auto{margin:auto;}
+.form-autocomplete{position: relative;}
+.form-autocomplete .icon.form-control-feedback{top:24px;}
+.block.clearfix{clear: both;}
+.breadcrumb{padding:8px 0px 0px 0px;margin: 0;color: #98a6ad;background: none;}
+.tab-container,.tab-container .pagination{margin-bottom: 0px;}
+.tab-container .pagination{display: block;}
+.breadcrumb > li + li:before{color: #C0D7E2;}
+form.node-form,form .from-panel{margin-bottom: 20px;background-color: #fff;border: 1px solid #dee5e7;border-radius: 2px;-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);box-shadow: 0 1px 1px rgba(0, 0, 0, .05);border-color: #dee5e7;padding: 15px;}
+.form-actions .btn,form .from-panel .btn{margin-right: 4px;}
+.view-filters .from-panel .form-inline .btn{margin-right: 0px;}
+.toast-message ul{list-style: none;padding: 0;margin: 0;}
+.toast-message ul li{padding: 1px;}
+form.user-eps-diamond-block .item-list ul{padding: 0;margin: 0;list-style: none;}
+form.user-eps-diamond-block .item-list ul li{margin-bottom: 15px;margin-top: 15px;text-align: center;}
+.navbar-brand img{max-height: 40px;text-align: center;max-width: 100%;}
+.navbar-brand img:last-child,.app-aside-folded .navbar-brand img:first-child{display:none;}
+.app-aside-folded .navbar-brand img:last-child{display:block;margin: 5px auto;}
+.element-invisible{display: none;}
+.vertical-tabs ul.vertical-tabs-list li a:hover {outline:none;}
+.vertical-tabs ul.vertical-tabs-list li a strong {font-weight: 500;}
+.vertical-tabs fieldset.vertical-tabs-pane{padding:1em;}
+.vertical-tabs ul.vertical-tabs-list li a:focus strong, .vertical-tabs ul.vertical-tabs-list li a:active strong, .vertical-tabs ul.vertical-tabs-list li a:hover strong{text-decoration: none;}
+ul.pager{margin-left: 2px;}
+ul.pager li.pager-current{display: inline-block;padding: 5px 14px; background-color: #23B7E5;border: 1px solid #22AEDA;border-radius: 15px;color: #F6F8F8;}
+.text-gray{color: #bbb;}
+.m-t-22{margin-top: 22px;}
+.item-list ul{padding: 0;margin: 0;list-style: none;}
+#autocomplete {border: 1px solid #cfdadd;overflow: hidden;position: absolute;z-index: 100;}
+#autocomplete ul {list-style: none;list-style-image: none;margin: 0;padding: 0;}
+#autocomplete li {background: #fff;color: #000;cursor: default;white-space: pre;zoom: 1;padding: 2px 4px;}
+#autocomplete li+li{border-top:solid 1px #ECECEC;}
+.form-control.managed-file{display: table;}
+.form-group .form-managed-file:not(.form-control){border: 1px solid #cfdadd;border-radius: 2px;padding: 6px 12px;}
+.form-type-date-select:not(.container-inline){display: table;}
+.form-type-date-select:not(.container-inline) > div{float: none;}
+.form-type-date-select:not(.container-inline) > div > div {float: left; margin-left: 4px;}
+
+.managed-file input[type=file],.form-managed-file > input[type=file]{float: left;margin-top: 6px;}
+.managed-file input[type=submit],.form-managed-file input[type=submit]{float: right;}
+.managed-file span.file{margin-top: 5px;display: inline-block;}
+.container-inline.dates {display: table;}
+.container-inline.dates > .form-item{float: left;}
+.container-inline.dates > .form-item+div{margin-left: 10px;}
+#admin-menu, #admin-menu .dropdown{z-index:1050;}
+.fa-spin-custom, .glyphicon-spin { -webkit-animation: spin 1000ms infinite linear; animation: spin 1000ms infinite linear;}
+.list-group-item > span.icon{top: 10px;right: 15px;}
+.list-group-item:last-child{margin-bottom:-1px;}
+.list-group-item:first-child{border-radius:0;}
+.navbar-brand.logo-block img:last-child,.app-aside-folded .navbar-brand.logo-block img:first-child{display: inline;}
+
+
+.user-info-from-cookie{border-top: solid 1px #e8e8e8;}
+.user-info-from-cookie .form-group{padding:20px 22px;margin:0;background: #ffffff;border:solid 1px #e8e8e8;border-top: none;}
+.user-info-from-cookie .form-group.form-autocomplete .icon.form-control-feedback{top: 45px;right: 22px;}
+.user-info-from-cookie .form-wrapper:last-child .form-group{background: #000;}
+.user-info-from-cookie .form-control{border-color: #e8e8e8;}
+.form-actions.form-wrapper{margin-top:55px;}
+
+.page-checkout-3 .from-panel{background:none;border:none;padding:0;box-shadow: none;}
+.page-checkout-3 legend{border:none;text-align: center;box-shadow: none;border-radius:0;}
+.page-checkout-3 .fieldset-legend{color: #58666e;font-size:15px;text-align: center;}
+.page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,.page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,.page-checkout-3 .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,.page-checkout-3 .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .page-checkout-3 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,.page-checkout-3 .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,.page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,.page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child,.page-checkout-3 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,.page-checkout-3 .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,.page-checkout-3 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,.page-checkout-3 .panel > .table:first-child > thead:first-child > tr:first-child th:last-child{border-radius:0;}
+
+.view-commerce-cart-summary{background: #fff;}
+.view-commerce-cart-summary thead th{padding:15px;background: #9e97ce;color: #fff;font-weight:normal;}
+.view-commerce-cart-summary .table > thead > tr > th{padding:15px;text-align: center;border-left: solid 1px #a6a0d3;border-right: solid 1px #938cbe;font-size:15px;}
+.view-commerce-cart-summary .table > tbody > tr > td{padding:15px;text-align: center;border-right:solid 1px #e8eaea;font-size:14px;}
+.view-commerce-cart-summary .table > tbody > tr > td:last-child,.view-commerce-cart-summary .table > thead > tr > th:last-child{border:none;}
+.view-commerce-cart-summary .panel{margin-bottom:0;}
+.view-commerce-cart-summary .commerce-price-formatted-components.table {width: 100%;background: #e7e9e9;}
+
+.afl_enrolment_details{background: #fff;margin-bottom:25px;}
+.afl_enrolment_details legend{background: #9e97ce;margin-bottom:0;padding:15px;color: #fff;font-size:15px;text-align: left;}
+.afl_enrolment_details .fieldset-legend{color: #fff;font-size:16px;}
+.afl_enrolment_details .table > tbody > tr > th,.afl_enrolment_details .table > tfoot > tr > th, .table > tbody > tr > td,.afl_enrolment_details .table > tfoot > tr > td{border: none;}
+
+.customer_profile_billing{background: #fff;margin-bottom:25px;}
+.customer_profile_billing legend{background: #9e97ce;margin-bottom:0;padding:15px;color: #fff;font-size:15px;text-align: left;}
+.customer_profile_billing .fieldset-legend{color: #fff;font-size:16px;}
+.customer_profile_billing .form-group{padding:20px 22px;margin:0;background: #ffffff;border:solid 1px #e8e8e8;border-top: none;}
+div.addressfield-container-inline > div.form-item{margin:0;}
+.form-item-customer-profile-billing-commerce-customer-address-und-0-locality{width:100%;}
+.form-item-customer-profile-billing-commerce-customer-address-und-0-administrative-area,.form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code{width:50%;}
+.checkout-continue.form-submit{height:44px;vertical-align:middle;}
+.checkout-cancel.form-submit{width:150px;height:44px;color: #fff;background: #333;margin-left:10px;border-radius: 0;text-decoration: none;}
+.checkout-cancel.form-submit:hover{background: #000;text-decoration: none;}
+
+
+
+.afl_enrolment_details{background: #fff;margin-bottom:25px;}
+.afl_enrolment_details legend{background: #9e97ce;margin-bottom:0;padding:15px;color: #fff;font-size:15px;text-align: left;}
+.afl_enrolment_details .fieldset-legend{color: #fff;font-size:16px;}
+.afl_enrolment_details .table > tbody > tr > th,.afl_enrolment_details .table > tfoot > tr > th, .table > tbody > tr > td,.afl_enrolment_details .table > tfoot > tr > td{border: none;}
+.afl_enrolment_details .table > tbody > tr > td:nth-child(1){color:#000;}
+
+#commerce-checkout-form-review table.checkout-review .pane-data-full{padding:0;}
+.form-wrapper-main .from-panel{border: none;background:none;padding:0;box-shadow:none;}
+.cart_contents legend{text-align: center;border: none;font-size:15px;color: #58666e;}
+
+.checkout-review.table .pane-title td{padding: 15px 0;}
+.checkout-review.table .pane-title.customer-profile-billing-title td{background: #9e97ce;margin-bottom:0;padding:15px;color: #fff;font-size:15px;text-align: left;}
+.customer-profile-billing-data{padding:15px;background: #fff;font-weight:normal;}
+#commerce-checkout-form-review table.checkout-review .customer-profile-billing-data td{padding:15px;border:solid 1px #e8e8e8;}
+.commerce_payment legend{text-align: left;border-bottom:none;}
+.commerce_payment .fieldset-legend,.cart_contents .fieldset-legend{text-align: left;font-size:20px;color: #9e97ce;}
+
+.commerce_payment #payment-details{padding:15px;background: #fff;border:solid 1px #e8e8e8;margin-bottom:25px;}
+.commerce_payment #payment-details label{font-size:14px;color: #282828;font-weight:bold;}
+
+.checkout-continue.form-submit{height:44px;vertical-align:middle;}
+.checkout-back.form-submit{width:150px;height:44px;color: #fff;background: #333;margin-left:10px;border-radius: 0;text-decoration: none;}
+.checkout-back.form-submit:hover{background: #000;text-decoration: none;}
+
+
+.form-group.form-item-operation{float: left;}
+
+.commerce-credit-card-expiration{}
+.commerce-credit-card-expiration .form-group{width:48.5%;}
+.commerce-credit-card-expiration .form-group,.commerce-month-year-divider{display: inline-block;}
+/*.form-radios{background: #9e97ce;padding:15px 0;}*/
+.form-radios{padding:15px 0;}
+.form-radios .form-item-commerce-payment-payment-method{margin:0;}
+
+.form-type-password-confirm.form-item-pass.form-group{padding:0;border:none;}
+.password-suggestions.description{border-bottom: solid 1px #e8e8e8 ;padding:20px;}
+.password-suggestions.description ul{margin:0;}
+
+.password-strength,.password-confirm{float: right;}
+.password-strength .password-strength-title,.password-strength .password-strength-text{display: inline-block;vertical-align: middle;}
+
+#commerce-checkout-form-checkout .from-panel{padding:0;border:none;background: none;box-shadow: none;}
+#commerce-checkout-form-review .from-panel{padding:0;border:none;background: none;box-shadow: none;}
+
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table:first-child > thead:first-child > tr:first-child th:first-child{border-radius:0;}
+
+.steps-new-style {margin-bottom:15px;}
+.steps-new-style > ul::after { background: #e7e9e9;content: "";height: 2px;left: 0;margin: 14px 0;position: absolute;width: 100%;}
+.steps-new-style ul{padding: 0;position: relative;height: 30px;}
+.steps-new-style li{display: inline-block;list-style: outside none none;position: absolute;z-index: 2;top:0;}
+.steps-new-style li span{width:30px;height:30px;display: block;background: #fff;border:solid 1px #e7e9e9;text-align: center;line-height:28px;}
+.child-li-1{}
+.child-li-2{left: 48%;top:0;}
+.child-li-3{right: 0;top:0;}
+
+.pull-left-btn .form-item{float: left;margin: 10px 10px 0 0;}
+.view-afl-notifications .from-panel >fieldset.form-wrapper legend{display: none;}
+.view-afl-notifications .from-panel > .panel{border: 0;}
+.view-afl-notifications .from-panel > .panel>.panel-body{padding-left:0; padding-right:0;}
+
+.steps-new-style li.active span{background: #9e97ce;color: #fff;border-color:#9e97ce; }
+.steps-new-style li.child-li-1:after{background: #9e97ce;content: "";height: 2px;left: 0;margin: 14px 0;position: absolute;width: 0;top:0;}
+.steps-new-style li.child-li-2.active:after{background: #9e97ce;content: "";height: 2px;margin: 14px 0;position: absolute;width:270px;top:0;right:30px;}
+.steps-new-style li.child-li-3.active:after{background: #9e97ce;content: "";height: 2px;margin: 14px 0;position: absolute;width:270px;top:0;right:30px;}
+.form-horizontal .form-group{margin-left:0px; margin-right: 0px;}
+.form-horizontal{padding:10px;}
+
+.view-enrolment-details .table td{
+  padding: 8px 15px !important;
+  border-top: 1px solid #EAEFF0 !important;
+}
+.ajax-progress{display :inline-block; margin-left:10px; margin-right:10px;}
+
+/*Support Module */
+.form-item-user-id{position: relative;}
+#placebidSupportModal #auto{background: #fff none repeat scroll 0 0;border: 1px solid #ccc;list-style: outside none none;margin: 0;padding:0;position: absolute;width: 100%;
+max-height: 100px;
+overflow-y:scroll;
+}
+#placebidSupportModal #auto li{ padding: 6px 12px; }
+#placebidSupportModal #auto li+li{ border-top: 1px solid #ccc; }
+/* END -> Support Module */
+.region-title-extra>.block{display: inline-block !important;}
+
+/*  -> Mahesh edits*/
+#block-afl-widgets-afl-left-profile .line{margin-bottom:0;}
+.table-responsive table {border: 1px solid #ddd;}
+.table-responsive table thead{background: #e5e5e5;}
+.table-responsive table thead th{font-weight:bold;}
+.table-responsive table th{padding:15px 0;text-align: center;border-right:solid 1px #cecece;font-weight:normal;font-size:14px;color: #3f4454;}
+.table-responsive tbody th,.table-responsive tbody td{padding:15px 0;text-align: center;border-right:solid 1px #ccc !important;font-size:14px;color: #3f4454;border-bottom:solid 1px #ccc !important;}
+.block.block-views{background-color: #fff; border: 1px solid transparent; border-radius: 2px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px; padding:10px 10px;}
+/*  -> Mahesh edits*/
+.welcome-login-wrapp{
+  margin-bottom: 30px !important;
+}
+
+.font-thin-bold {font-weight: 400;}
+
+@media only screen and (min-width:768px) {
+  .app.aside-lg:not(.app-aside-folded) .app-aside,.app.aside-lg:not(.app-aside-folded) .navbar-header {width: 230px;}
+  .app.aside-lg:not(.app-aside-folded) .navbar-collapse,.app.aside-lg:not(.app-aside-folded) .app-content,.app.aside-lg:not(.app-aside-folded) .app-footer {margin-left: 230px;}
+  .app-aside-fixed.aside-lg:not(.app-aside-folded) .aside-wrap .navi-wrap{ width: 225px; }
+  .app-aside-fixed.aside-lg:not(.app-aside-folded) .aside-wrap .navi-wrap > * {width: 230px;}
+
+  .app.aside-xlg:not(.app-aside-folded) .app-aside,.app.aside-xlg:not(.app-aside-folded) .navbar-header {width: 270px;}
+  .app.aside-xlg:not(.app-aside-folded) .navbar-collapse,.app.aside-xlg:not(.app-aside-folded) .app-content,.app.aside-xlg:not(.app-aside-folded) .app-footer {margin-left: 270px;}
+  .app-aside-fixed.aside-xlg:not(.app-aside-folded) .aside-wrap .navi-wrap{ width: 225px; }
+  .app-aside-fixed.aside-xlg:not(.app-aside-folded) .aside-wrap .navi-wrap > * {width: 270px;}
+}
+
+@media only screen and (max-width:480px) {
+    .steps-new-style li.child-li-2.active::after{width: 190px;}
+    .steps-new-style li.child-li-3.active::after{width:180px;}
+    .commerce-credit-card-expiration .form-group {width: 47%;}
+}
+
+@media only screen and (max-width:360px) {
+    .steps-new-style li.child-li-2.active::after{width: 130px;}
+    .steps-new-style li.child-li-3.active::after{width:115px;}
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-administrative-area, .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code{width:100%;}
+    .form-actions .btn, form .from-panel .btn {margin: 0;width: 100%;}
+    .button-operator {display: block;margin: 10px auto;text-align: center;}
+    .afl_enrolment_details .fieldset-wrapper td{width:100%;display: block;}
+}
+@media only screen and (max-width:320px) {
+    .steps-new-style li.child-li-2.active::after{width: 110px;}
+    .steps-new-style li.child-li-3.active::after{width:110px;}
+    .child-li-2{left: 46%;}
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}

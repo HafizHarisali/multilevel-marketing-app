@@ -1,0 +1,47 @@
+[autofocus] {
+  border-color: #c85d57 !important;
+}
+
+.cop-banner-link {
+    margin:10px 0px;
+}
+
+.banner-image-copy{
+  display: none;
+}
+.promotional-banners {
+    text-align: center;
+}
+a.btn.show-banner {
+    display: block;
+}
+
+.export-code-width {
+    width: 90%;
+    border :thin solid #58666e;
+    background: #F2F1F0;
+    padding :10px;
+}
+.span_edit{
+  padding : 0 5px;
+}
+
+
+.banner-essential-text{
+  display: none;
+}
+
+.popup-width-840{
+  width: 100%;
+}
+
+.animate{
+    animation:spin 4s linear infinite;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+/*@media only screen and (max-width:980px) {
+	.export-code-width{ width : 90% }
+	.popup-width-840{ width: 100%;}
+}*/
+

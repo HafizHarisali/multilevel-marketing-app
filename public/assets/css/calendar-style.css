@@ -1,0 +1,38 @@
+.day-events { border: 1px solid #58666e2e; padding: 15px; margin-bottom: 15px; }
+.day-events h3{ margin-top: 0px; }
+.calendar-agenda-no-hours{ display: none; }
+.day-view th{ display: none; }
+.calendar-calendar .day-view .full td.multi-day div.dayview{ background: #fff !important; height: auto !important; color: #58666e !important; }
+.dayview{ border: 1px solid #58666e2e !important;}
+.date-nav .pager .date-prev{  right: auto !important; left: 0px !important; float: left !important; background : none !important;}
+.date-nav .pager .date-next{ background : none !important;}
+.afl-news-item { border: 1px solid #ccc; margin-bottom: 5px; width: 100%; height: auto;}
+.afl-news-tab .panel-default{ border: none; }
+.afl-notes-item {padding: 0px 15px; margin: 10px 5px; border-left: 3px solid #dee5e7;}
+.afl-notes-content { display: inline-block;}
+.views-row-odd .afl-notes-item { border-left-color: #1b1aad;}
+.views-row-even .afl-notes-item { border-left-color: #ad9812;}
+.view .view-content .afl-notes-item{padding-right: 20px;position: relative;}
+.view .view-content .afl-notes-item .dropdown.afl-note-operations{position: absolute;top: 0;right: 0;}
+.view .view-content .quick-notes-list:nth-child(even) .afl-notes-item:{border-color: #5a67d9;}
+.view .view-content .quick-notes-list:nth-child(odd) .afl-notes-item{border-color: #30b6e3;}
+.view .view-content .quick-notes-list:nth-child(1) .afl-notes-item{border-color: #fbb739;}
+.view .view-content .quick-notes-list:nth-child(2) .afl-notes-item{border-color: #726ac7;}
+.view .view-content .quick-notes-list:nth-child(3) .afl-notes-item{border-color: #36bea3;}
+.view .view-content .quick-notes-list:nth-child(4) .afl-notes-item{border-color: #f3506e;}
+.view .view-content .quick-notes-list:nth-child(5) .afl-notes-item{border-color: #3aa3f4;}
+.view .view-content .quick-notes-list:nth-child(6) .afl-notes-item{border-color: #f3506e;}
+.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li.title{padding: 5px 15px;color:#7266ba;}
+.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li a{color: #bdbdbd;}
+.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li a i{margin-right: 10px;}
+.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li a:hover,.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li a:focus,.view .view-content .quick-notes-list .dropdown-menu.afl-note-operations-popup li a:active{color: #000;}
+#add-note-modal .modal .modal-header{border-color: #f7f7f7;}
+.upcoming-event-block .media-list .media .pull-left,.upcoming-event-block .media-list .media .media-left{margin-right: 5px;}
+.upcoming-event-block .media-list .media .pull-left .date-box,.upcoming-event-block .media-list .media .media-left .date-box{background: #eee;border-radius: 2px;text-align: center;}
+.upcoming-event-block .media-list .media .pull-left .month,.upcoming-event-block .media-list .media .media-left .month{color: #30b6e3;font-size: 30px;font-weight: bold;padding: 4px 24px;border-bottom: dotted 1px #d4d4d4;}
+.upcoming-event-block .media-list .media .pull-left .year,.upcoming-event-block .media-list .media .media-left .year{color: #949494;font-size: 14px;font-weight: 600;padding: 4px 24px;}
+.upcoming-event-block .media-list li.media {padding: 20px 15px;border-bottom: solid 1px #eaf1f3;margin-top: 0;}
+.upcoming-event-block .media-list li.media:last-child {border-bottom: 0;padding-bottom: 15px;}
+.upcoming-event-block .media-list li.media .media-heading{font-size: 16px; color: #424242;}
+.upcoming-event-block .media-list li.media .event-body{color: #babbbc;}
+.upcoming-event-block .media-list li.media .event-date{color: #777777;font-size: 13px;}

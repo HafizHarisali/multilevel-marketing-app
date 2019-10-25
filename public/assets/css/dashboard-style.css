@@ -1,0 +1,47 @@
+.panel.panel-grid > div+div{border-left: 1px solid #ebedf2;}
+.m-widget{padding:10px;}
+.m-widget .widget-grid-item{ border-bottom: 1px dashed #ebedf2;padding: 12px 0px;}
+.m-widget .block:last-child .widget-grid-item{border-bottom: 0;}
+.m-widget .widget-grid-item .title{font-weight: 600; margin-top: 3px;margin-bottom: 5px;}
+.m-widget .widget-grid-item .link{display: block;}
+.m-widget .widget-grid-item .desc{}
+.m-widget .widget-grid-item .num{letter-spacing: 0px;}
+.chart-legend .chart-item{}
+.chart-legend .chart-item .bullet{width: 24px;height: 6px;display: inline-block;border-radius: 1.1rem;margin-bottom: 0.12rem;margin-right: 0.8rem;background-color: #00c5dc;}
+.chart-legend .chart-item .bullet.link{background-color: #ccc;}
+.font-semi-bold{font-weight: 600;}
+.progress-block .block:nth-child(1) .progress-bar {background-color: #8e54e9;}
+.progress-block .block:nth-child(2) .progress-bar {background-color: #31b332;}
+.progress-block .block:nth-child(3) .progress-bar {background-color: #e3324c;}
+.progress-block .block:nth-child(4) .progress-bar {background-color: #45aaf2;}
+.progress-block .block:nth-child(5) .progress-bar {background-color: #f7b630;}
+#block-afl-widgets-afl-block-member-joins-map > .panel{margin-bottom: 0;}
+#block-afl-widgets-afl-block-sale-payout-chart .widget-chart .chart .box{border: 1px solid #eef2f2;-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);box-shadow: 0 1px 1px rgba(0,0,0,.05);}
+#block-afl-widgets-afl-block-expenditures .panel .panel{-webkit-box-shadow:none;box-shadow: none;}
+.p-5{padding: 5px !important;}
+#block-afl-widgets-afl-block-expenditures > .panel,#block-afl-widgets-afl-block-my-organisations > .panel,#block-afl-widgets-afl-block-expenditures > .panel .tab-content .panel{margin-bottom: 0;}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+	.m-widget .widget-grid-item > .pull-right{float: left;width: 100%;display: block;}
+	.m-widget .widget-grid-item > .pull-right .num{margin-top: 0;padding-left: 53px; }
+	.panel-grid .c2 .widget-chart .col-md-5,.panel-grid .c2 .widget-chart .col-md-7{width: 100%;flex: 0 0 100%;max-width: 100%;}
+	.panel-grid .c2 .widget-chart .col-md-7 .chart-legend{margin-top: 5px;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+	.row.panel-grid.widget .c3.col-md-4{width: 100%;flex: 0 0 100%;max-width: 100%;border-top: 1px solid #ebedf2;}
+	.row.panel-grid.widget .c1.col-md-4,.row.panel-grid.widget .c2.col-md-4{width: 50%;flex: 0 0 50%;max-width: 50%;}
+}
+@media only screen and (min-width: 992px) {
+	.chart-legend{margin-top: 40%;}
+}
+@media only screen and (max-width: 992px) {
+	.panel.panel-grid > div+div{border-left:0; border-top: 1px solid #ebedf2;}
+	#block-afl-widgets-afl-block-user-transaction-chart .chart-legend,#block-afl-widgets-afl-block-btransaction-chart .chart-legend{margin-top:20px;text-align: center;}
+}
+@media only screen and (max-width: 479px) {
+	.widget-grid-item .pull-left, .widget-grid-item .pull-right{float: none !important;text-align: center;}
+	.widget-grid-item .pull-left.m-r{margin-right: 0;}
+	.widget-grid-item .pull-right .m-t{margin-top: 0;}
+	#block-afl-widgets-afl-block-user-transaction-chart .widget-chart h4,#block-afl-widgets-afl-block-btransaction-chart .widget-chart h4 {text-align: center;}
+	#block-afl-widgets-afl-block-user-transaction-chart .widget-chart h4 > .pull-right,#block-afl-widgets-afl-block-btransaction-chart .widget-chart h4 > .pull-right {float: none !important;margin-top: 5px;display: block;}
+}
